@@ -1,0 +1,51 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+          <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
+        
+        <div class="one">
+            <h1 class="four">OTP GENERATOR</h1>
+            <input id="two">
+            <div id="seven">OTP</div>
+            
+            <button class="bt" onclick="submit()"> sumitt</button>
+            <button class="b1" onclick="otp()">generte otp</button>
+            <button class="bt2" onclick="cancel()"> cancel</button>
+        </div>
+        <script>
+            function otp(){
+                let otp =Math.floor(Math.random()*10000)
+                let show=document.getElementById("seven")
+                show.textContent=otp
+                
+                
+                
+                
+            }
+            function submit(){
+                let input=document.getElementById("two").value
+                if(parseInt(input)==otp){
+                    alert('the otp is verfied sucessfully')
+                }
+                else if(parseInt(input)==""){
+                    alert("plese fill the otp")
+                }
+                else{
+                    alert("sorry please check the otp")
+                }
+            }
+            function cancel(){
+                location.reload();
+            }
+    
+            
+        </script>
+    </body>
+
+
+
+
+</html><

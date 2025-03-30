@@ -1,0 +1,107 @@
+h1{
+    color: blue;
+}
+.one{
+    background: linear-gradient(blue,black);
+    width: 500px;
+    height: 500px;
+    border: 10px;
+    border-radius: 5px;
+    border-color: aqua;
+    border-style:solid ;
+
+    position: relative;
+    right: 50px;
+    left: 500px;
+
+
+}
+#two{
+    position: absolute;
+    width: 300px;
+    right: 500px;
+    left: 80px;
+    top: 300px;
+    height: 30px;
+    border-radius: 10PX;
+    background-color: blue;
+    
+
+}
+body{
+    background:linear-gradient(blue,yellow) ;
+}
+.four{
+    color: red;
+    position: relative;
+     left: 80px;
+     top: 200px;
+     right: 300px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#seven{
+    position:absolute;
+    top: 450px;
+    bottom: 400px;
+    left:110px;
+    right: 500px;
+    color: aqua;
+
+    
+}
+.bt{
+    position: absolute;
+    top: 400px;
+    right: 200px;
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    border: 10px;
+    border-style: solid;
+    color: red;
+    background-color: rgb(151, 193, 26);
+
+    
+
+}
+#seven :focus{
+    color: red;
+    
+
+}
+.b1{
+
+
+
+  position: absolute;
+    top:100px;
+    right: 200px;
+    width: 200px;
+    height: 80px;
+    border-radius: 25px;
+    border: 10px;
+    border-style: solid;
+    color: red;
+    background-color: black;
+
+}
+.bt2{
+    position: absolute;
+    top: 450px;
+    right: 200px;
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    border: 10px;
+    border-style: solid;
+    color: red;
+    background-color: rgb(39, 169, 115);
+
+
+
+}
+#TWO:focus{
+    background-color: red;
+}
+
